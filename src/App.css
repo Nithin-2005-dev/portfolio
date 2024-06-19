@@ -1,0 +1,99 @@
+.icon{
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+}
+@keyframes textmove {
+  from{
+    translate: 0px;
+    opacity: 0;
+  }
+  to{
+    translate: 30px;
+    opacity: 1;
+  }
+}
+.head{
+  font-weight: 700;
+  color:#1f2937 ;
+  font-family:cursive;
+  animation-name: textmove;
+  animation-duration: 2s;
+  animation-iteration-count:calc(1);
+
+}
+.name{
+  color: #b1a3d8;
+  font-family: 'Courier New', Courier, monospace;
+  animation:textmove 2s ease-in 0s calc(1);
+}
+.btn{
+  background-color: #1f2937;
+  color: #faf9fc;
+  font-weight: 1000;
+}
+.cont{
+  border: 1px solid rgb(239, 237, 237);
+  border-radius: 5%;
+  background-color: #F6F5F5;
+}
+.heading{
+  font-weight: 350;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation:visible 2s ease-in 0s calc(1);
+}
+.text{
+  color: #715ca9;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  animation:visible 2s ease-in 0s calc(1);
+}
+.sub{
+  color: rgb(104, 64, 64);
+  font-weight: 300;
+  font-family:monospace;
+  animation:visible 2s ease-in 0s calc(1);
+}
+.li{
+  margin: 3%;
+}
+.bad{
+  margin: 3%;
+  animation:visible 2s ease-in 0s calc(1);
+}
+@keyframes visible {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.myimg{
+  animation: visible 3s ease-in-out calc(1);
+}
+.car{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.feedText{
+  margin: 2rem;
+  font-family:'Arial Narrow Bold', sans-serif;
+  color: #33373d;
+  font-style: oblique;
+}
+#hidden{
+  display: none;
+  color: red;
+  font-weight: 400;
+}
+@keyframes up {
+  from{
+    translate: 0px 50px
+  }
+  to{
+    translate: 0px 0px;
+  }
+}
